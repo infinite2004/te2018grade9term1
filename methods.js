@@ -1,14 +1,15 @@
 // **** Example: sayHello() ****
-// Write a function expression that prints "Hello " along with whatever string is
+// Write a function expression that returns "Hello " along with whatever string is
 // passed in as an argument.
 let sayHello = function(str) {
-  console.log(`Hello ${str}`);
+  return `Hello ${str}`;
 }
 
 // Test your function at least three times below
-sayHello("World");
-sayHello("Yarency");
-sayHello("Luis")
+console.log("Example Tests:");
+console.log(sayHello("World"));
+console.log(sayHello("Yarency"));
+console.log(sayHello("Luis"));
 
 // **** Problem 1: getQuotient() ****
 // Write a function expression that returns the quotient of the first argument
@@ -16,13 +17,16 @@ sayHello("Luis")
 
 
 // Test your function at least three times below
+console.log("Problem 1 Tests:");
 
 
 // **** Problem 2: sumDouble() ****
 // Write a function expression that, when given two number values, return their
 // sum. Unless the two values are the same, then return double their sum.
 
+
 // Test your function at least three times below
+console.log("Problem 2 Tests:");
 
 
 // **** Problem 3: makes10() ****
@@ -31,6 +35,7 @@ sayHello("Luis")
 
 
 // Test your function at least three times below
+console.log("Problem 3 Tests:");
 
 
 // **** Problem 4: Object Methods ****
@@ -41,3 +46,4 @@ sayHello("Luis")
 
 
 // Test all of your object's methods below.
+console.log("Problem 4 Tests:");
