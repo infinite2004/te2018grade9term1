@@ -1,13 +1,14 @@
 // **** Example: sayHello() ****
-// Write a function expression that prints "Hi " along with whatever string is
-// passed in as input.
-let sayHello = function(message) {
-  console.log(message);
+// Write a function expression that prints "Hello " along with whatever string is
+// passed in as an argument.
+let sayHello = function(str) {
+  console.log(`Hello ${str}`);
 }
 
 // Test your function below
-sayHello("Hello World!");
-
+sayHello("World");
+sayHello("Yarency");
+sayHello("Luis")
 
 // **** Problem 1: getQuotient() ****
 // Write a function expression that returns the quotient of the first argument
