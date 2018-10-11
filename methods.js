@@ -5,7 +5,7 @@ let sayHello = function(str) {
   console.log(`Hello ${str}`);
 }
 
-// Test your function below
+// Test your function at least three times below
 sayHello("World");
 sayHello("Yarency");
 sayHello("Luis")
@@ -15,14 +15,14 @@ sayHello("Luis")
 // divided by the second.
 
 
-// Test your function below
+// Test your function at least three times below
 
 
 // **** Problem 2: sumDouble() ****
 // Write a function expression that, when given two number values, return their
 // sum. Unless the two values are the same, then return double their sum.
 
-// Test your function below
+// Test your function at least three times below
 
 
 // **** Problem 3: makes10() ****
@@ -30,7 +30,7 @@ sayHello("Luis")
 // if one if them is 10 or if their sum is 10.
 
 
-// Test your function below
+// Test your function at least three times below
 
 
 // **** Problem 4: Object Methods ****
@@ -40,4 +40,4 @@ sayHello("Luis")
 // owned by the object.
 
 
-// Test your object's methods below.
+// Test all of your object's methods below.
