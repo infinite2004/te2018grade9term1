@@ -1,5 +1,6 @@
 // Example
-let message = "Hello World!";
+let message = "science is awesome"
+
 console.log(message);
 
 // Type your code below!
