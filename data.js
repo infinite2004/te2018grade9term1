@@ -1,5 +1,6 @@
 // Example
-let message = "science is awesome"
+let message = 10*10 ==100000000
+
 
 console.log(message);
 
