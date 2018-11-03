@@ -2,12 +2,12 @@ const READLINE = require("readline-sync");
 
 // use whatever properties you want for the player object
 let player = {
-  name: undefined,
+  name: BOB,
   courage: 0,
-  intellect: 0,
+  intellect: 10000000000000,
   strength: 0,
-  charm: 0,
-  weapon: "fists",
+  charm: 99999999999999,
+  weapon: "katana",
   item: "flashlight",
 };
 
@@ -26,6 +26,29 @@ if(enterHouse == "y" || enterHouse == "yes") {
   player.intellect++;
   console.log(`${player.name} decides not to open the door. However...`);
   // continue the story
+console.log(`${player.name} is confrinted with another door ... Will you open the door`)
+let door  =READLINE.question("do you want to open the door? yes or no") 
+if(door == "yes")}
 
-}
+  console.log("you found a sword")
+player.weapo
+
 console.log("Thanks for playing!");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

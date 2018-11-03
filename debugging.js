@@ -26,6 +26,7 @@ if(money > 20 && money <= 50) {
 let num1 = READLINE.question("Enter num1: ");
 let num2 = READLINE.question("Enter num2: ");
 let num3 = READLINE.question("Enter num3: ");
+
 if(num1 > num2 && num1 > num3) {
   console.log(`${num1} is the largest value.`);
 }
