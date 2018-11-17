@@ -1,11 +1,13 @@
-const READLINE = require("readline-sync");
-
+const READLINE = require("readline-sync")
 // **** Problem 1: printMessage() ****
 // Write a function that prints any message you want.
-
-
+let add = function(x,y){
+	console.log(x+y);
+ add(3,9)
 // **** Problem 2: printFiveMessages() ****
 // Write a function that calls printMessage() five times.
+printMessage = function(){
+	show(`)
 
 
 // **** Problem 3: getUserInput() ****
