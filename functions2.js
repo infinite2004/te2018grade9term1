@@ -10,11 +10,16 @@ sumDouble(1, 2) → 3
 sumDouble(3, 2) → 5
 sumDouble(2, 2) → 8
 *******************************************************************************/
+function sumDouble(num1,num2){
+  if(num1 == num2){
+    return( num1 + num2) * 2
+  }else{
+    return num1 + num2
+  }
+}
 
-
-
+console.log(sumDouble(2,6))
 // Remove comment below to test this function.
-//testSumDouble();
 
 /******************************************************************************
                                    makes10(a, b)
@@ -26,9 +31,22 @@ makes10(9, 10) → true
 makes10(9, 9) → false
 makes10(1, 9) → true
 *******************************************************************************/
+function makes10(a,b){
+ if (a + b == 10){
+ return true;
 
+ }
 
+ else if(a == 10 || b == 10){
+  return false;
+}else{
+  return false;
+}
 
+}
+console.log(makes10(a,b)){
+
+}
 // Remove comment below to test this function.
 //testMakes10();
 
