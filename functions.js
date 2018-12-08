@@ -10,9 +10,16 @@ sumDouble(2, 2) → 8
 *******************************************************************************/
 
 function sumDouble(a, b) {
+if(num1 == num2){
+  
+  return(num1 + num2) * 2
 
+}else{
+ 
+  return num1 + num2 
 }
 
+}
 // Remove comment below to test this function.
 //testSumDouble();
 
@@ -27,8 +34,17 @@ makes10(1, 9) → true
 *******************************************************************************/
 
 function makes10(a, b) {
+if(a + b == 10){
+  return true;
+
+else if(a == 10 || b ==10){
+  return true;
+}else{
+  return false;
+}
 
 }
+
 
 // Remove comment below to test this function.
 //testMakes10();
@@ -47,11 +63,15 @@ parrotTrouble(false, 6) → false
 *******************************************************************************/
 
 function parrotTrouble(talking, hour) {
-
+if(talking == true){
+  if (hour <  7 || hour > 20){
+    return true;
+    }
+  } 
 }
-
+console.log(parrotTrouble(6,21))
 // Remove comment below to test this function.
-//testParrotTrouble();
+testParrotTrouble();
 
 /******************************************************************************
                                    alarmClock
@@ -68,8 +88,8 @@ alarmClock(0, false) → "10:00"
 *******************************************************************************/
 
 function alarmClock(day, vacation) {
+if(onVacation 
 
-}
 
 // Remove comment below to test this function.
 //testAlarmClock();

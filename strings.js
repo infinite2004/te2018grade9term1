@@ -31,10 +31,8 @@ frontAgain("ed") → true
 
 function frontAgain(str) {
 let firtTwo = str.substring(0, 2)
-return true
-
 let secondTwo = str.substring(str.length -2 ,str.lenght)
-return false
+
 }
 
 // Test this function.
